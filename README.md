@@ -13,4 +13,4 @@ Sample website with plenty of files for demos
 ## Deployment
 
 ## How To Contribute
-
+Meld je aan per mail
