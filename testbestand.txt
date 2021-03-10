@@ -7,3 +7,13 @@ Vice franzen next level pop-up normcore trust fund gluten-free. Raw denim thunde
 Organic tumblr cliche, twee glossier occupy ennui vaporware trust fund next level kickstarter synth listicle. Blog everyday carry cray, marfa neutra palo santo echo park. Air plant seitan YOLO, schlitz tbh dreamcatcher listicle blue bottle actually chillwave artisan. Typewriter yuccie snackwave blue bottle disrupt copper mug vape farm-to-table shoreditch. Deep v neutra post-ironic pitchfork. Cornhole occupy truffaut, paleo readymade health goth tattooed you probably haven't heard of them forage cronut portland.
 
 Pop-up air plant etsy crucifix neutra snackwave scenester mlkshk tacos cliche tattooed. Intelligentsia leggings thundercats VHS fingerstache. Ugh raclette taiyaki, roof party chicharrones fashion axe health goth paleo bespoke. YOLO kombucha 8-bit biodiesel asymmetrical enamel pin freegan pok pok deep v next level subway tile palo santo sriracha squid 90's. 3 wolf moon seitan health goth hammock tbh DIY wolf keffiyeh skateboard.
+
+My New Best Friend: git merge --no-ff
+AUG 31, 2011
+I've been using Git now for several years. Over a year ago I bumped into a great article about A Successful Git Branching Model. It's a great article in its own right and deserves your attention if you're using Git. If you're not using Git, you'd better be using some form of distributed version control. If you're not…well…I digress.
+
+One of the things about Git that I never worried about too much was leveraging branches for various work items. Instead, I'd often just do my work on my own local copy and use master. Then, when I'd go to push, I'd first pull in changes, rebase, and push. (There's another great article on why rebase is bad.) The thing about rebase and merge is that they creates a single "branch" that is long and all of the work that you performed for a particular work item or bug or whatever gets lost in the single master branch. Enter "git merge –no-ff".
+
+The "no-ff" stands for "no fast forward". The whole idea is that each time you do something, you to keep its identity and know that it came as a result of a particular bug. If you merge and you do so by fast forwarding, that context has been lost. But by appending "--no-ff" onto the merge command, you'll retain the context and the merge is maintained. Of course the end result in terms of the source code is the same, but we know how we got there. Kind of like event sourcing, huh?
+
+If there's anything you guys know about me, it's that context is king. Without it, we're lost because we can't tell the forest from the trees. That's why from now on, I'm going to be doing lots of merging but without fast forwarding.
