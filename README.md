@@ -11,6 +11,10 @@ Doel is het blahblahblah
 Sample website with plenty of files for demos
 
 ## Deployment
+Dat wordt hier beschreven...
+...op een later moment
 
 ## How To Contribute
 Meld je aan per mail
+
+Derde mutatie not staged
