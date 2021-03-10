@@ -17,3 +17,6 @@ One of the things about Git that I never worried about too much was leveraging b
 The "no-ff" stands for "no fast forward". The whole idea is that each time you do something, you to keep its identity and know that it came as a result of a particular bug. If you merge and you do so by fast forwarding, that context has been lost. But by appending "--no-ff" onto the merge command, you'll retain the context and the merge is maintained. Of course the end result in terms of the source code is the same, but we know how we got there. Kind of like event sourcing, huh?
 
 If there's anything you guys know about me, it's that context is king. Without it, we're lost because we can't tell the forest from the trees. That's why from now on, I'm going to be doing lots of merging but without fast forwarding.
+xxxxxxxxxxxxxyyyyyyyyyyyyyyyyyyyyzzzzzzzzzzzzzzzzz
+sssssssssssggggggggggggggggiiiiiiiiiiiiiiiiiii
+zzzzzzzzzzzzzzzhhhhhhhhhhhhhzzzzzzzzzzzzzzzzzzz
