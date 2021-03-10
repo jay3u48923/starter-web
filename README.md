@@ -15,7 +15,7 @@ Dat wordt hier beschreven...
 ...op een later moment
 
 ## How To Contribute
-Meld je aan per mail
+Please fork this repo and then issue pull requests for review.
 
 Derde mutatie not staged
 Vierde mutatie...
