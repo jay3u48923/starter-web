@@ -3,6 +3,8 @@
 This repository is for showing how Git and GitHub work
 En nog wat info over deze repo...
 
+Adding a line just voor the rebasing feature :-)
+
 ## Introduction
 Doel is het blahblahblah
 
@@ -17,7 +19,3 @@ Dat wordt hier beschreven...
 ## How To Contribute
 Please fork this repo and then issue pull requests for review.
 
-Derde mutatie not staged
-Vierde mutatie...
-En nog een regel om te testen...........!
-...pfff en nog een regel.
