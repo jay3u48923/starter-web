@@ -1,2 +1,2 @@
 Deze regel is initieel local toegevoegd.
-Deze regel is later toegevoegd aan local.
+Deze regel is toegevoegd op origin master
