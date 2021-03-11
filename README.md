@@ -3,7 +3,8 @@
 This repository is for showing how Git and GitHub work
 En nog wat info over deze repo...
 
-Adding a line just voor the rebasing feature :-)
+Adding a line just for the rebasing feature :-)
+Adding another line just for the rebasing feature...
 
 ## Introduction
 Doel is het blahblahblah
