@@ -7,7 +7,7 @@ Adding a line just for the rebasing feature :-)
 Adding another line just for the rebasing feature...
 
 ## Introduction
-Doel is het blahblahblah
+Dit bestand tussendoor bewerken een committen voor stash test.
 
 ## Purpose
 
